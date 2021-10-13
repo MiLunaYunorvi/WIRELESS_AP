@@ -1,0 +1,191 @@
+*** Starting uWSGI 2.0.19.1 (32bit) on [Wed Sep 29 13:56:46 2021] ***
+compiled with version: 8.3.0 on 17 June 2020 09:19:11
+os: Linux-5.10.17-v7l+ #1414 SMP Fri Apr 30 13:20:47 BST 2021
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/uwsgi
+writing pidfile to /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/uwsgi/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP
+your processes number limit is 12868
+your memory page size is 4096 bytes
+detected max file descriptor number: 8192
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/uwsgi/uwsgi.sock fd 3
+Python version: 3.7.3 (default, Jan 22 2021, 20:04:44)  [GCC 8.3.0]
+Python main interpreter initialized at 0xf75d10
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 363000 bytes (354 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xf75d10 pid: 18780 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18780)
+spawned uWSGI worker 1 (pid: 18793, cores: 1)
+spawned uWSGI worker 2 (pid: 18794, cores: 1)
+spawned uWSGI worker 3 (pid: 18795, cores: 1)
+spawned uWSGI worker 4 (pid: 18796, cores: 1)
+*** Starting uWSGI 2.0.19.1 (32bit) on [Wed Sep 29 14:18:43 2021] ***
+compiled with version: 8.3.0 on 29 September 2021 19:16:39
+os: Linux-5.10.17-v7l+ #1414 SMP Fri Apr 30 13:20:47 BST 2021
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/uwsgi
+writing pidfile to /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/uwsgi/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP
+your processes number limit is 12868
+your memory page size is 4096 bytes
+detected max file descriptor number: 8192
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/uwsgi/uwsgi.sock fd 3
+Python version: 2.7.16 (default, Oct 10 2019, 22:02:15)  [GCC 8.3.0]
+Python main interpreter initialized at 0x818068
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 362960 bytes (354 KB) for 4 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./EXCAP/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ImportError: No module named django.core.wsgi
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 21317)
+spawned uWSGI worker 1 (pid: 21319, cores: 1)
+spawned uWSGI worker 2 (pid: 21320, cores: 1)
+spawned uWSGI worker 3 (pid: 21321, cores: 1)
+spawned uWSGI worker 4 (pid: 21322, cores: 1)
+*** Starting uWSGI 2.0.19.1 (32bit) on [Wed Sep 29 15:49:56 2021] ***
+compiled with version: 8.3.0 on 29 September 2021 19:16:39
+os: Linux-5.10.17-v7l+ #1414 SMP Fri Apr 30 13:20:47 BST 2021
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/uwsgi
+writing pidfile to /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/uwsgi/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setuid() to 1000
+chdir() to /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/EXCAP
+your processes number limit is 12868
+your memory page size is 4096 bytes
+detected max file descriptor number: 8192
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.19.1 (32bit) on [Wed Sep 29 16:02:49 2021] ***
+compiled with version: 8.3.0 on 29 September 2021 19:16:39
+os: Linux-5.10.17-v7l+ #1414 SMP Fri Apr 30 13:20:47 BST 2021
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP
+writing pidfile to /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/uwsgi/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setuid() to 1000
+chdir() to /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/
+your processes number limit is 12868
+your memory page size is 4096 bytes
+detected max file descriptor number: 8192
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.19.1 (32bit) on [Wed Sep 29 16:02:53 2021] ***
+compiled with version: 8.3.0 on 29 September 2021 19:16:39
+os: Linux-5.10.17-v7l+ #1414 SMP Fri Apr 30 13:20:47 BST 2021
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP
+writing pidfile to /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/uwsgi/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setuid() to 1000
+chdir() to /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/
+your processes number limit is 12868
+your memory page size is 4096 bytes
+detected max file descriptor number: 8192
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.19.1 (32bit) on [Wed Sep 29 16:40:28 2021] ***
+compiled with version: 8.3.0 on 29 September 2021 19:16:39
+os: Linux-5.10.17-v7l+ #1414 SMP Fri Apr 30 13:20:47 BST 2021
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP
+writing pidfile to /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/uwsgi/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setuid() to 1000
+chdir() to /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/
+your processes number limit is 12868
+your memory page size is 4096 bytes
+detected max file descriptor number: 8192
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.19.1 (32bit) on [Wed Sep 29 16:40:32 2021] ***
+compiled with version: 8.3.0 on 29 September 2021 19:16:39
+os: Linux-5.10.17-v7l+ #1414 SMP Fri Apr 30 13:20:47 BST 2021
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP
+writing pidfile to /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/uwsgi/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setuid() to 1000
+chdir() to /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/
+your processes number limit is 12868
+your memory page size is 4096 bytes
+detected max file descriptor number: 8192
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.19.1 (32bit) on [Wed Sep 29 16:40:43 2021] ***
+compiled with version: 8.3.0 on 29 September 2021 19:16:39
+os: Linux-5.10.17-v7l+ #1414 SMP Fri Apr 30 13:20:47 BST 2021
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP
+writing pidfile to /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/uwsgi/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setuid() to 1000
+chdir() to /home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/
+your processes number limit is 12868
+your memory page size is 4096 bytes
+detected max file descriptor number: 8192
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+bind(): Cannot assign requested address [core/socket.c line 769]
