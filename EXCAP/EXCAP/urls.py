@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls.conf import include
-from modulos.Portalweb.views import formulario,registrar,acceder,lista
+from modulos.Portalweb.views import formulario,registrar,acceder,lista,nuevos,antiguos,vips
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,6 +24,10 @@ urlpatterns = [
     path('acceder/',acceder,name='acceder'),
     path('lista/',lista,name="lista"),
     path('',formulario,name='formulario'),
-    path('formulario/',include('modulos.Portalweb.urls'),name='formulario')
+    path('formulario/',include('modulos.Portalweb.urls'),name='formulario'),
+    path('nuevos/',nuevos,name='nuevos'),
+    path('vips/',vips,name='vips'),
+    path('antiguos/',antiguos,name='antiguos'),
+    #path('vips/',vips,name=vips),
 ]
 

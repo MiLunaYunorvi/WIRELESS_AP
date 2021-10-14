@@ -79,6 +79,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': '/home/pi/Desktop/AP_MERAKI/MERAKI/WIRELESS_AP/EXCAP/db.sqlite3',
+    },
+    'vipdb' : {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'vip',
     }
 }
 
