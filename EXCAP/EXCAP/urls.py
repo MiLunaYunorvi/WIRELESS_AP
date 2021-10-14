@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls.conf import include
-from modulos.Portalweb.views import formulario,registrar,acceder,lista,nuevos,antiguos,vips
+from modulos.Portalweb.views import formulario,registrar,acceder,lista,nuevos,antiguos,vips,lista_clientes
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -28,6 +28,4 @@ urlpatterns = [
     path('nuevos/',nuevos,name='nuevos'),
     path('vips/',vips,name='vips'),
     path('antiguos/',antiguos,name='antiguos'),
-    #path('vips/',vips,name=vips),
-]
-
+    path('listaclientes/',lista_clientes,name='lista_clientes')]

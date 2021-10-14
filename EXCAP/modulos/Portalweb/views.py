@@ -1,6 +1,6 @@
 from django.shortcuts import render,redirect
 import json
-from .models import Usuario,Vips
+from .models import Usuario,Vips,clientes
 from datetime import datetime,date
 
 # Create your views here.
@@ -148,8 +148,14 @@ def consulta_usuario_new(dni_v):
 
 def lista(request):
     usuariosenlista=Usuario.objects.all()
-    print(usuariosenlista)
+    #print(usuariosenlista)
     return render(request,'usuarios.html',{"usuarios":usuariosenlista})
+
+def lista_clientes(request):
+    usuariosantiguos=clientes.objects.all()
+    usuariosvip=Vips.objects.all()
+    #print(usuariosenlista)
+    return render(request,'usuarios_vip_old.html',{"usuariosviejos":usuariosantiguos,"vips":usuariosvip})
 
 def formulario(request):
     global mac,base_url

@@ -14,3 +14,9 @@ class Vips(models.Model):
     apellidos = models.CharField(max_length=64)
     email=models.EmailField()
     dni=models.IntegerField()
+
+class clientes(models.Model):
+    nombre = models.CharField(max_length=64)
+    apellidos = models.CharField(max_length=64)
+    email=models.EmailField()
+    dni=models.IntegerField()
